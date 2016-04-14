@@ -1,17 +1,17 @@
 body {
-    
-	margin: 0 auto;
-    padding: 0;
+
     color:#333333;
     
 	background: -webkit-radial-gradient(#F7F7F7, #CDCDCD);
     background: -o-radial-gradient(#F7F7F7, #CDCDCD);
     background: -moz-radial-gradient(#F7F7F7, #CDCDCD);
     background: radial-gradient(#F7F7F7, #CDCDCD);
-	
+    
 	text-align: center;
-
+    
 }
+
+/* THE ID'S CSS STARTS HERE */
 
 #titleName {
         
@@ -45,18 +45,22 @@ body {
 
 }
 
-.time_container {
-    
-	    margin: 80% auto;
-        padding: 0;
-
-}
-
 #time {
     
-    border: 2px solid black;
+    border: 1px solid black;
     
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 300%;
     
+}
+
+
+
+/* THE CLASSES CSS STARTS HERE */
+
+.time_container {
+    
+	margin: 80% auto;
+    padding: 0;
+
 }

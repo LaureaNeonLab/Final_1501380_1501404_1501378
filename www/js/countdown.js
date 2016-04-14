@@ -1,4 +1,4 @@
-// Trying to add milliseconds
+// Trying to add milliseconds counter
 
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
@@ -8,7 +8,6 @@ function startTimer(duration, display) {
         
         minutes = minutes < 10 ? "0" + minutes : minutes;
         seconds = seconds < 10 ? "0" + seconds : seconds;
-        
         
         display.textContent = minutes + ":" + seconds;
         
@@ -21,5 +20,5 @@ function startTimer(duration, display) {
 window.onload = function () {
     var oneMinute = 60 * 1,
         display = document.querySelector('#time');
-    startTimer(oneMinute, display); 
+    startTimer(oneMinute, display);
 }
