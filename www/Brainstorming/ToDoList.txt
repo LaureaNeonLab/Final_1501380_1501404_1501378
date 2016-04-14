@@ -1,0 +1,11 @@
+### To do ###
+- Find out how added images don't affect the margin and padding. Need's to be done in VanillaJS.
+- Figure out the milliseconds logic.
+- Assign either variables or transform effects for the lines.
+- Make the number variables for the 1s, 10s and 100s.
+- Add the logic to the number variables.
+
+- Make a new menu screen "logo", too blurry at the moment.
+
+
+### Done ###
