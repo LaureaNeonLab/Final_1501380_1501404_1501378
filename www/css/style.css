@@ -6,6 +6,7 @@ body {
     background: -o-radial-gradient(#F7F7F7, #CDCDCD);
     background: -moz-radial-gradient(#F7F7F7, #CDCDCD);
     background: radial-gradient(#F7F7F7, #CDCDCD);
+    background-attachment: fixed;
     
 	text-align: center;
     
@@ -14,7 +15,7 @@ body {
 /* THE ID'S CSS STARTS HERE */
 
 #titleName {
-        
+
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -25,7 +26,7 @@ body {
 }
 
 #newGame {
-    
+
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -35,7 +36,7 @@ body {
     border-radius: 5%;
     
 	transition: all .03s linear;
-    
+  
 }
 
 #newGame:active {
@@ -53,8 +54,6 @@ body {
     font-size: 300%;
     
 }
-
-
 
 /* THE CLASSES CSS STARTS HERE */
 
