@@ -14,7 +14,7 @@ body {
 
 /* THE ID'S CSS STARTS HERE */
 
-#newGame {
+#collectible {
 
     display: block;
     margin-left: auto;
@@ -28,7 +28,7 @@ body {
   
 }
 
-#newGame:active {
+#collectible:active {
     
     transform: translateY(10px);
     transform: scale(1.1);
