@@ -1,54 +1,12 @@
-body {
-
-    color:#333333;
-    
-	background: -webkit-radial-gradient(#F7F7F7, #CDCDCD);
-    background: -o-radial-gradient(#F7F7F7, #CDCDCD);
-    background: -moz-radial-gradient(#F7F7F7, #CDCDCD);
-    background: radial-gradient(#F7F7F7, #CDCDCD);
-    background-attachment: fixed;
-    
-	text-align: center;
-    
+.container {
+  padding:5px 30px 30px 30px;
+  margin:30px;
+  border:solid white 1px;
+  border-radius:5px;
+  /*background-color:#e6e6e6;*/
+  text-align:center;
 }
 
-/* THE ID'S CSS STARTS HERE */
-
-#collectible {
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: auto;
-    border: solid;
-    border-radius: 5%;
-    
-	transition: all .03s linear;
-  
-}
-
-#collectible:active {
-    
-    transform: translateY(10px);
-    transform: scale(1.1);
-
-}
-
-#time {
-    
-    border: 1px solid black;
-    
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 300%;
-    
-}
-
-/* THE CLASSES CSS STARTS HERE */
-
-.time_container {
-    
-	margin: 80% auto;
-    padding: 0;
-
+.btn-success, .btn-danger {
+  width:200px;
 }

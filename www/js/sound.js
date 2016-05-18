@@ -32,3 +32,6 @@ function createsoundbite(sound) {
 
 var mouseoversound = createsoundbite( "/audio/whistle.ogg", "/audio/whistle.mp3" )
 var clicksound = createsoundbite( "/audio/click.ogg", "/audio/click.mp3" )
+var purchaseSound = createsoundbite("/audio/purchase.wav")
+var purchaseSound2 = createsoundbite("/audio/purchase2.wav")
+var purchaseSound3 = createsoundbite("/audio/purchase3.wav")
